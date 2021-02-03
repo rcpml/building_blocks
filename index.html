@@ -6,27 +6,80 @@
     <title>BUILDING BLOCKS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Poppins&family=Oxanium:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.ico" />
   </head>
   <body>
-    <div class="container">
-      <nav>
+    <div class="container-main">
+      <nav class="navbar">
         <ul>
-          <li>RE</li>
-          <li>APPS</li>
-          <li>POSTS</li>
-          <li>CONTACT</li>
+          <li class="logo">
+            <a href="./index.html">RCPML</a>
+          </li>
+          <li class="apps">
+            <a href="#">APPS</a>
+          </li>
+          <li class="blog">
+            <a href="#">POSTS</a>
+          </li>
+          <li class="contact">
+            <a href="./contact.html">CONTACT</a>
+          </li>
         </ul>
       </nav>
 
-      <div>
-        <p>
-          This is a sample one. Why on earth this is not getting the font!!!
-        </p>
-      </div>
+      <main>
+        <section class="container">
+          <h3>Recep</h3>
+          <h2>Front-End Development</h2>
+          <p>
+            I started front-end development while building tools for use in
+            education. The more I worked on FE, the more I learned and loved.
+          </p>
+        </section>
+
+        <section class="container-showcase">
+          <h3>Less Talk, More Code</h3>
+
+          <a href="#">
+            <div class="showcase-item">
+              <h4>Type Check ⌨️</h4>
+              <!-- <p>How accurate can you type?</p> -->
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="showcase-item">
+              <h4>Story Maker 🖼</h4>
+              <!-- <p>Build a story for your objective!</p> -->
+            </div>
+          </a>
+
+        </section>
+
+        <section class="container-showcase">
+          <h3>Let's Talk Code and Stuff</h3>
+
+          <a href="#">
+            <div class="showcase-item">
+              <h4>Refactoring Matters 🛠</h4>
+              <!-- <p>Completing an algorithm is just half the way.</p> -->
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="showcase-item">
+              <h4>On Teaching Yourself 👨🏻‍💻</h4>
+              <!-- <p>Why should we take breaks while learning a complex subject?</p> -->
+            </div>
+          </a>
+
+        </section>
+
+      </main>
     </div>
   </body>
 </html>
