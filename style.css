@@ -111,7 +111,7 @@ body {
   padding: 2.25rem 20vw;
   font-size: 2rem;
   line-height: 1.5;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container-main main a,
@@ -176,6 +176,7 @@ body {
 
 .container-main main .container-showcase h3 {
   color: #df4d19;
+  font-family: "Lato", sans-serif;
   border-bottom: .2rem solid lightcoral;
   margin-bottom: 1rem;
 }
