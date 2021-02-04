@@ -219,7 +219,7 @@ body {
           align-items: center;
 }
 
-.container-main main #contact-container h2 {
+.container-main main #contact-container h2, .container-main main #contact-container h3 {
   font-family: "Lato", sans-serif;
 }
 
