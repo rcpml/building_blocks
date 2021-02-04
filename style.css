@@ -34,6 +34,7 @@ body {
 
 .container-main {
   padding: 1.5rem;
+  color: #404040;
 }
 
 .container-main nav {
@@ -111,7 +112,6 @@ body {
   font-size: 2rem;
   line-height: 1.5;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #292929;
 }
 
 .container-main main a,
