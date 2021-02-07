@@ -181,8 +181,8 @@ body {
             }
 
             .showcase-item {
-                // border: .2rem dotted coral;
-                // padding: .5rem;
+                // border: .2rem dashed coral;
+                padding: .5rem;
                 @include respond(phone) {
                     font-size: 1.5rem;
                 }
@@ -200,6 +200,28 @@ body {
             flex-direction: column;
             align-items: center;
 
+            // border: 1rem #121212 solid;
+            // border-radius: 1rem;
+            // box-shadow: #121212 .5rem 1rem;
+
+            padding: 8rem;
+
+            line-height: 1.25;
+
+            h2 {
+                font-size: 4.883rem;
+                @include respond(phone) {
+                    font-size: 3.662rem;
+                }
+            }
+
+            h3 {
+                font-size: 3.906rem;
+                @include respond(phone) {
+                    font-size: 2.93rem;
+                }
+            }
+
             h2, h3 {
                 font-family: "Lato", sans-serif;
             }
@@ -214,6 +236,7 @@ body {
 
             @include respond(phone) {
                 font-size: 2rem;
+                padding: 0;
             }
         }
     }
