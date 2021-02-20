@@ -99,7 +99,6 @@ body {
 .container-main nav ul li a,
 .container-main nav ul li a:link {
   text-decoration: none;
-  color: #191b22;
 }
 
 .container-main nav ul li a:hover,
@@ -199,8 +198,10 @@ body {
   margin-bottom: 1rem;
 }
 
-.container-main main .container-showcase .showcase-item {
-  padding: .5rem;
+@media (max-width: 600px) {
+  .container-main main .container-showcase a:not(:last-child) {
+    margin-bottom: .5rem;
+  }
 }
 
 @media (max-width: 600px) {

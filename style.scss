@@ -43,10 +43,8 @@ body {
             
 
             .logo {
-                // background-color: coral;
                 padding: 0 .2rem;
                 margin-right: auto;
-
                 a {
                     color: $black-primary-light;
                 }
@@ -82,8 +80,6 @@ body {
                 a,
                 a:link {
                     text-decoration: none;
-                    color: #191b22;
-
                     &:hover {
                         color: #e84393;
                     }
@@ -98,7 +94,6 @@ body {
         font-size: 2rem;
         line-height: 1.5;
         font-family: 'Open Sans', sans-serif;
-        // color: #292929;
 
         a,
         a:active,
@@ -178,19 +173,17 @@ body {
 
             a:not(:last-child) {
                 margin-bottom: 1rem;
+                @include respond(phone) {
+                    margin-bottom: .5rem;
+                }
             }
 
             .showcase-item {
-                // border: .2rem dashed coral;
-                padding: .5rem;
                 @include respond(phone) {
                     font-size: 1.5rem;
                 }
             }
 
-            .showcase-item:not(:last-child) {
-                // margin-bottom: 1rem;
-            }
         }
 
         #contact-container {
@@ -199,10 +192,6 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-
-            // border: 1rem #121212 solid;
-            // border-radius: 1rem;
-            // box-shadow: #121212 .5rem 1rem;
 
             padding: 8rem;
 
