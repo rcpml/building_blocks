@@ -64,11 +64,11 @@ body {
 }
 
 .container-main nav ul .logo a {
-  color: #534e50;
+  color: #121212;
 }
 
 .container-main nav ul .apps a {
-  color: #534e50;
+  color: #121212;
 }
 
 .container-main nav ul .blog {
@@ -76,7 +76,7 @@ body {
 }
 
 .container-main nav ul .blog a {
-  color: #534e50;
+  color: #121212;
 }
 
 .container-main nav ul .contact {
@@ -84,7 +84,7 @@ body {
 }
 
 .container-main nav ul .contact a {
-  color: #534e50;
+  color: #121212;
 }
 
 .container-main nav ul li {
@@ -106,7 +106,7 @@ body {
 }
 
 .container-main main {
-  padding: 2.25rem 20vw;
+  padding: 2.25rem 25vw;
   font-size: 2rem;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
@@ -158,6 +158,10 @@ body {
   }
 }
 
+.container-main main .container p {
+  font-size: 1.8rem;
+}
+
 @media (max-width: 600px) {
   .container-main main .container p {
     font-size: 1.5rem;
@@ -173,9 +177,9 @@ body {
 }
 
 .container-main main .container-showcase h3 {
-  color: #df4d19;
+  color: #0085A8;
   font-family: "Lato", sans-serif;
-  border-bottom: .2rem solid lightcoral;
+  border-bottom: 0.1rem solid #0085A8;
   margin-bottom: 1rem;
 }
 

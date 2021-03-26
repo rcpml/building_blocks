@@ -46,27 +46,27 @@ body {
                 padding: 0 .2rem;
                 margin-right: auto;
                 a {
-                    color: $black-primary-light;
+                    color: $black-primary;
                 }
             }
 
             .apps {
                 a {
-                    color: $black-primary-light;
+                    color: $black-primary;
                 }
             }
 
             .blog {
                 padding: 0 .2rem;
                 a {
-                    color: $black-primary-light;
+                    color: $black-primary;
                 }
             }
 
             .contact {
                 padding: 0 .2rem;
                 a {
-                    color: $black-primary-light;
+                    color: $black-primary;
                 }
             }
 
@@ -90,7 +90,7 @@ body {
 
     main {
 
-        padding: 2.25rem 20vw;
+        padding: 2.25rem 25vw;
         font-size: 2rem;
         line-height: 1.5;
         font-family: 'Open Sans', sans-serif;
@@ -135,6 +135,7 @@ body {
             }
 
             p {
+                font-size: 1.8rem;
                 @include respond(phone) {
                     font-size: 1.5rem;
                 }
@@ -151,9 +152,9 @@ body {
             }
 
             h3 {
-                color: $orange-primary-dark;
+                color: $blue-primary-dark;
                 font-family: "Lato", sans-serif;
-                border-bottom: .2rem solid lightcoral;
+                border-bottom: .1rem solid $blue-primary-dark;
                 margin-bottom: 1rem;
             }
 
