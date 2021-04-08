@@ -127,7 +127,7 @@ body {
             h2 {
                 font-family: 'Poppins', sans-serif;
                 font-size: 4.883rem;
-                font-weight: bold;
+                font-weight: 500;
                 line-height: 1.25;
                 
                 @include respond(phone) {
