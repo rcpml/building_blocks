@@ -127,6 +127,7 @@ body {
             h2 {
                 font-family: 'Poppins', sans-serif;
                 font-size: 4.883rem;
+                font-weight: bold;
                 line-height: 1.25;
                 
                 @include respond(phone) {
@@ -156,6 +157,11 @@ body {
                 font-family: "Lato", sans-serif;
                 border-bottom: .1rem solid $red-primary;
                 margin-bottom: 1rem;
+            }
+
+            h4 {
+                font-size: 1.8rem;
+                font-size: 2rem;
             }
 
             a,
