@@ -236,4 +236,16 @@ body {
             }
         }
     }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .image-caption {
+            font-size: 1rem;
+            color: $black-primary-light;
+        }
+    }
 }
