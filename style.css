@@ -37,7 +37,7 @@ body {
 }
 
 .container-main nav {
-  font-family: "Oxanium", cursive;
+  font-family: "Lato", sans-serif;
   font-size: 2rem;
 }
 
@@ -160,7 +160,8 @@ body {
 }
 
 .container-main main .container p {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
