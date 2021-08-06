@@ -110,15 +110,15 @@ body {
         }
 
         @include respond(tab-land) {
-            padding: 1.5rem 15vw;
+            padding: 10rem 15vw;
         }
 
         @include respond(tab-port) {
-            padding: 1.5rem 10vw;
+            padding: 2rem 10vw;
         }
 
         @include respond(phone) {
-            padding: 1rem 5vw;
+            padding: 10rem 5vw;
         }
 
         .container {
